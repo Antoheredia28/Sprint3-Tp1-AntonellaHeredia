@@ -33,7 +33,7 @@ class SuperHeroRepository extends IRepository {
             const heroeEliminado = await superHero.findByIdAndDelete(id);
             return heroeEliminado;
         } catch(error){
-            console.error("Erroral eliminar el superheroe", error);
+            console.error("Error al eliminar el superheroe", error);
             throw error;
         }
     }
