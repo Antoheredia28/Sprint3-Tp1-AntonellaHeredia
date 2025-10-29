@@ -48,9 +48,6 @@ class SuperHeroRepository extends IRepository {
         }
     }
 
-
-
-
 }
 
 export default new SuperHeroRepository();
