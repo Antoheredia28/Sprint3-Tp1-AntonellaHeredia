@@ -14,4 +14,5 @@ const superheroSchema = new mongoose.Schema({
 });
 
 const superHero = mongoose.model('SuperHero', superheroSchema, 'Grupo-20');
+console.log(`[MOD] Se esta usando el modelo del grupo 20`)
 export default superHero

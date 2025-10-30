@@ -1,7 +1,7 @@
 import express from "express";
 import {connectDB} from "./config/dbConfig.mjs";
 import superHeroRoutes from './routes/superHeroRoutes.mjs';
-import morgan from 'morgan';
+//import morgan from 'morgan';
 
 
 const app = express();
@@ -14,7 +14,7 @@ app.use(express.json());
 
 //Midlleware para 
 
-app.use(morgan('dev'));
+//app.use(morgan('dev'));
 
 //Conexion a Mongo DB
 
